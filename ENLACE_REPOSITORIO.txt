@@ -1,11 +1,11 @@
 Enlace del repositorio (Git):
-<PEGA_AQUI_LA_URL_DE_TU_REPOSITORIO_EN_GITHUB_O_GITLAB>
+https://github.com/AlexTique/importaman-api.git
 
 Ya se hizo "git init" y el primer commit localmente. Pasos para subirlo:
-1. Crea un repositorio vacio en GitHub o GitLab (ej: ImportamanAPI), sin README.
-2. Copia la URL (ejemplo: https://github.com/tu-usuario/importaman-api.git)
+1. Se crea un repositorio vacio en GitHub (ej: importaman-api), sin README.
+2. Copia la URL (ejemplo: https://github.com/AlexTique/importaman-api.git)
 3. En la terminal, dentro de esta carpeta:
-   git remote add origin <URL-del-repositorio>
+   git remote add origin https://github.com/AlexTique/importaman-api.git
    git branch -M main
    git push -u origin main
-4. Reemplaza la linea de arriba con la URL real.
+4. Reposotorio Guardado exitosamente
