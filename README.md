@@ -36,8 +36,8 @@ ALEX_TIQUE_AA5_EV01/
    npm install
    ```
 
-2. Crear la tabla `usuarios` en tu base de datos MySQL ejecutando el script
-   `sql/usuarios.sql` (una sola vez). Puedes hacerlo desde MySQL Workbench,
+2. Crear la tabla `usuarios` en la base de datos MySQL ejecutando el script
+   `sql/usuarios.sql` (una sola vez). hecho desde
    phpMyAdmin, o la terminal:
    ```
    mysql -u root -p importamanoficial < sql/usuarios.sql
@@ -47,8 +47,8 @@ ALEX_TIQUE_AA5_EV01/
    ```
    cp .env.example .env
    ```
-   Y ajustar `DB_USER`, `DB_PASSWORD`, etc. con tus datos reales de MySQL
-   (los mismos que usa `ConexionDB.java` en tu proyecto de escritorio).
+   Y ajustar `DB_USER`, `DB_PASSWORD`, etc. con los datos reales de MySQL
+   (los mismos que usa `ConexionDB.java` en el proyecto de escritorio).
 
 4. Ejecutar en modo desarrollo:
    ```
